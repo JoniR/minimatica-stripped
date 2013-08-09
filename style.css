@@ -1,0 +1,30 @@
+/*
+Theme Name:     Minimatica Stripped
+Theme URI:      rasanenj.kapsi.fi
+Description:    Child theme for Minimatica theme
+Author:         Joni Räsänen
+Author URI:     rasanenj.kapsi.fi
+Template:       minimatica
+Version:        0.0.1
+License: GNU General Public License
+License URI: license.txt
+*/
+@import url("../minimatica/style.css");
+
+#searchform {
+	display:none;
+}
+
+#searchform input[type=text] {
+	position:absolute;
+	top:0;
+	left:20px;
+	width:185px;
+	height:12px;
+	background:none;
+	padding:9px 5px;
+	border:none;
+	font-family:sans-serif;
+	font-size:14px;
+	display:none;
+}
