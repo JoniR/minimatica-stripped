@@ -39,5 +39,7 @@ If you see any, they've been injected by somebody mean.
 You may safely remove them or download the theme from the original location.
 
 == Changelog ==
+= 0.0.2=
+Added base code for theme options page
 = 0.0.1 =
 * Initial Release
