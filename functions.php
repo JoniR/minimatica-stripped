@@ -1,4 +1,12 @@
 <?php
+/* Version history
+0.1 initial version
+0.2 Added child theme options
+*/
+
+// Added child theme options
+require_once ( get_stylesheet_directory() . '/child-theme-options.php' );
+
 if ( ! function_exists( 'minimatica_nav_menu' ) ) :
 /**
  * Finnish translation for static Home button
