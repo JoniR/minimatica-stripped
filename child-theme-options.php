@@ -17,50 +17,6 @@ function theme_options_add_page() {
 	add_theme_page( __( 'Child Theme Options', 'ministripped' ), __( 'Child Theme Options', 'ministripped' ), 'edit_theme_options', 'theme_options', 'theme_options_do_page' );
 }
 
-/**
- * Create arrays for our select and radio options
- */
-$select_options = array(
-	'0' => array(
-		'value' =>	'0',
-		'label' => __( 'Zero', 'ministripped' )
-	),
-	'1' => array(
-		'value' =>	'1',
-		'label' => __( 'One', 'ministripped' )
-	),
-	'2' => array(
-		'value' => '2',
-		'label' => __( 'Two', 'ministripped' )
-	),
-	'3' => array(
-		'value' => '3',
-		'label' => __( 'Three', 'ministripped' )
-	),
-	'4' => array(
-		'value' => '4',
-		'label' => __( 'Four', 'ministripped' )
-	),
-	'5' => array(
-		'value' => '3',
-		'label' => __( 'Five', 'ministripped' )
-	)
-);
-
-$radio_options = array(
-	'yes' => array(
-		'value' => 'yes',
-		'label' => __( 'Yes', 'ministripped' )
-	),
-	'no' => array(
-		'value' => 'no',
-		'label' => __( 'No', 'ministripped' )
-	),
-	'maybe' => array(
-		'value' => 'maybe',
-		'label' => __( 'Maybe', 'ministripped' )
-	)
-);
 
 /**
  * Create the options page
